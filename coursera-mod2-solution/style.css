@@ -7,21 +7,25 @@ h1 {
     text-align: center;
 }
 
-.row {
-    width: 100%;
+.outer-box {
+    border: 1px solid green;
+    margin: 0;
 }
 
-.outer-box {
-    background-color: gray;
-    border: 3px solid black;
-    width: 90%;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+.row {
+  width: 100%;
 }
 
 p {
-    padding-top: 10px;
+    background-color: gray;
+    border: 3px solid black;  
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .col-1 {
@@ -30,8 +34,8 @@ p {
     float: right;
     position: relative;
     margin: 0;
-    bottom: 13px;
-    left: 13px;
+    bottom: 43px;
+    left: 18px;
 }
 
 .col-2 {
@@ -40,8 +44,8 @@ p {
     float: right;
     position: relative;
     margin: 0;
-    bottom: 13px;
-    left: 13px;
+    bottom: 43px;
+    left: 18px;
 }
 
 .col-3 {
@@ -50,8 +54,8 @@ p {
     float: right;
     position: relative;
     margin: 0;
-    bottom: 13px;
-    left: 13px;
+    bottom: 43px;
+    left: 18px;
 }
 
 span {
